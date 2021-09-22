@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #34495e;
+    height: 655px;
+    background-image: linear-gradient(200deg, #343A40 0%, orange 100%);
 }
 
 .box {
@@ -14,7 +15,11 @@ body {
     transform: translate(-50%, -50%);
     background: #191919;
     text-align: center;
+    box-shadow: 15px 15px  #2B2B2B;
 }
+
+
+
 .box h1{
     color: white;
     text-transform: uppercase;
@@ -64,3 +69,4 @@ body {
     -webkit-transform: rotateX(10deg);
     transform: rotateX(10deg);
 }
+
